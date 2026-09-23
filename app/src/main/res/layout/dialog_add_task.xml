@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#112240">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Task"
+        android:textColor="@color/pure_white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/taskTitleInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Task Title (e.g., EVOLIX 2026 prep)"
+        android:textColor="@color/pure_white"
+        android:textColorHint="#888888"
+        android:backgroundTint="@color/light_blue"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/taskWorkspaceInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Workspace (e.g., College Work)"
+        android:textColor="@color/pure_white"
+        android:textColorHint="#888888"
+        android:backgroundTint="@color/light_blue"/>
+
+    <Button
+        android:id="@+id/btnSelectDeadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Deadline (Optional)"
+        android:textColor="@color/pure_black"
+        android:backgroundTint="@color/light_blue" />
+
+</LinearLayout>
